@@ -16,4 +16,4 @@ jobs:
           role-to-assume: 'arn:aws:iam::787306238618:role/oidc-example-role' # 作成した IAM ロールの ARN
 
       # プライベートな S3 バケットを読み取ってみる
-      - run: aws s3 ls s3://oidc-example
+      - run: aws s3 ls s3://oidc-example-bucket
